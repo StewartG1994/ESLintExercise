@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+a{
+    color: black;
+    text-decoration: none;
+    background-color: aliceblue;
+  
+   
+}
+
+.nav {
+
+    padding: 30px;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    background-color: aliceblue;
+ 
+  }
+
+  .dropDown{
+      display: none;
+      position: relative;
+      z-index: 1;
+      width: 100px;
+      
+  }
+
+  .dropDown a{
+    color: black;
+    text-decoration: none;
+    background-color: aliceblue;
+    display: block;
+    margin-top: 20px;
+
+  }
+  .display{
+      display: block;
+  }
